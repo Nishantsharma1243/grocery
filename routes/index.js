@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', function (req, res) {
-    res.render('admin_products');
+    res.render('user_login');
 })
 
 router.get('/map/:orderid',function (req, res) {
