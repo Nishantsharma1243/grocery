@@ -5,7 +5,7 @@ const passport = require('passport')
 passport.use(new GoogleStrategy({
     clientID: process.env.GOOGLE_CLIENT_ID,
     clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-    callbackURL: "https://grocery-0abf.onrender.com/auth/google/callback"
+    callbackURL: "https://grocery-w0bo.onrender.com/auth/google/callback"
   },
  async function(accessToken, refreshToken, profile, cb) {
  try {
